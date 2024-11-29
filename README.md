@@ -1,1 +1,5 @@
-"# ejemplo-tesis-sdith" 
+# Computación Multipartita y SDP en la construcción del esquema de firmas SDitH
+
+La amenaza emergente de la computación cuántica ha impulsado esfuerzos globales para desarrollar algoritmos criptográficos que sean seguros frente a ataques de futuros computadores cuánticos. Como parte de estos esfuerzos, el Instituto Nacional de Estándares y Tecnología (NIST) ha liderado una iniciativa para la selección y estandarización de esquemas de cifrado y firmas digitales post-cuánticas. En 2022, el NIST emitió un llamado adicional enfocado en esquemas de firmas digitales, promoviendo la investigación en áreas como códigos correctores, retículos, isogenias y técnicas avanzadas de computación multipartita en la cabeza (MPCitH).  
+
+Este repositorio se centra en el esquema de firmas digitales **Syndrome Decoding in the Head (SDitH)**, un protocolo que combina la dificultad computacional del problema de decodificación del síndrome con pruebas de conocimiento cero y computación multipartita. Aquí encontrarás código de ejemplo para entender el protocolo MPC en el cual se fundamenta el esquema de firmas, cómo funcionan las operaciones sobre esquemas de comparticiones, cómo se crea una prueba de cero conocimiento a partir de un protocolo MPC y finalmente cómo se construye el esquema de firmas SDitH.
